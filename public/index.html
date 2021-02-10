@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
@@ -12,6 +22,49 @@
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    <br><br><br><br>
     <!-- built files will be auto injected -->
+    <!-- footer -->
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <form action="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-auto mb-4 mb-md-0">
+              <p class="pt-2"><strong>Sign up for our newsletter</strong></p>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-md-5 col-12 mb-4 mb-md-0">
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label" for="form5Example2">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-auto mb-4 mb-md-0">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary mb-4">Subscribe</button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
   </body>
 </html>
